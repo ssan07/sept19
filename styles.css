@@ -29,7 +29,7 @@
 }
 
 .loginc {
-    font-size: 45px;
+    font-size: 55px;
     color: #000000;
     background-position: center;
     background-attachment: scroll;
@@ -58,7 +58,7 @@ body {
     background-repeat: no-repeat; */
     overflow-x: hidden;
     color: rgb(0, 0, 0);
-    font-family: "Nanum Gothic", sans-serif;
+    font-family: "Tangerine","Nanum Gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
     width: 100%;
@@ -207,19 +207,21 @@ ul li {
 }
 
 .para {
-    font-size: 25px;
+    font-size: 35px;
     justify-content: center;
     width: 100%;
     padding: 50px;
     margin-left: -34px;
 }
 .paral {
-    font-size: 25px;
+    font-size: 35px;
     justify-content: center;
-    background: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(255, 68, 0, 0.8));
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgb(30, 0, 255));
     width: 100%;
     padding: 50px;
     margin-left: -34px;
+    color: white;
+    
 }
 #white{
     color: white;
@@ -228,7 +230,7 @@ ul li {
     border-top: 4px solid rgb(0, 0, 0);
     padding-right: 20px;
     text-align: right;
-    font-size: 35px;
+    font-size: 45px;
     margin-top: 0px;
     margin-bottom: 0px;
     align-items: end;
@@ -277,7 +279,7 @@ ul li {
 
 
 #contacts {
-    font-size: 25px;
+    font-size: 35px;
     text-align: end;
     padding: 10px;
     align-items: center;
@@ -298,7 +300,7 @@ nav {
 }
 
 .head {
-    font-size: 60px;
+    font-size: 70px;
     color: #ff0000;
     background-position: center;
     background-attachment: scroll;
@@ -372,7 +374,7 @@ nav {
 }
 
 .form1 {
-    font-size: 25px;
+    font-size: 35px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.773);
     padding: 40px 50px 35px 50px;
     width: 300px;
@@ -380,7 +382,7 @@ nav {
 }
 
 .form {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     padding: 100px;
 }
@@ -394,7 +396,7 @@ input {
     width: 300px;
     height: 30px;
     border-radius: 50px;
-    background-color: #00000074;
+    background-color: #000000bb;
 }
 
 button {
@@ -404,12 +406,13 @@ button {
 }
 
 textarea {
-    background-color: #0000009a;
+    background-color: #000000bb;
+    
 }
 
 .td {
     padding: 0px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .link {
@@ -442,7 +445,7 @@ li:hover {
 }
 
 .contac {
-    font-size: 25px;
+    font-size: 35px;
 
 }
 
@@ -473,7 +476,7 @@ li:hover {
 }
 
 .padding {
-    padding: 30px;
+    padding: 50px;
 }
 
 .imgs {
@@ -501,7 +504,7 @@ li:hover {
 
 .scrolle-r {
     display: flex;
-    animation: scroll-left 25s linear infinite;
+    animation: scroll-left 10s linear infinite;
     z-index: -1;
 }
 
@@ -535,7 +538,7 @@ li:hover {
 }
 
 .onimg {
-    margin-top: -30%;
+    margin-top: -35%;
 }
 
 /*scroller end*/
@@ -559,7 +562,7 @@ footer {
 
 .bo {
     white-space: nowrap;
-    font-size: 28px;
+    font-size: 38px;
     font-weight: lighter;
 }
 
@@ -574,7 +577,7 @@ footer {
 }
 
 .topic {
-    font-size: 13px;
+    font-size: 23px;
     line-height: 30px;
 }
 
@@ -587,3 +590,30 @@ footer {
 #black{
     color: black;
 }
+.shad{
+    text-shadow: 0 0 2px black;
+    font-size: 90px;
+    /* color: rgba(255, 255, 255, 0.209); */
+    text-shadow: 
+    -1px -1px 0 #777,
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black;
+}
+/* {
+    padding-top: 200px;
+    padding-left: 260px;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.209);
+    text-shadow: 
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black;
+} */
+ .size{
+    font-size: 30px;
+ }
+ .sub{
+    color: #ff0000;
+ }
